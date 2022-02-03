@@ -1,0 +1,393 @@
+body {
+    background: #292A2D;
+    font-family: 'Manjari', sans-serif;
+}
+
+header {
+    background: #222425;
+}
+
+.top-logo {
+    padding: 15px;
+}
+
+.box {
+    position: relative;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+.page-selected {
+    text-decoration: underline;
+}
+
+nav {
+    position: absolute;
+    top: 140px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+nav a:hover {
+    color: #7C48BE;
+    text-decoration: underline;
+}
+
+.products {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 100px;
+}
+
+.products li {
+    display:inline-block;
+    text-align: center;
+    color: #DDDDDD;
+    width: 30%;
+    margin: 0 1.5%;
+	padding: 30px 20px;
+    vertical-align: top;
+	box-sizing: border-box;
+    border: 2px solid #DDDDDD;
+    border-radius: 20px;
+    transition: 1s all;
+}
+
+.products li:hover {
+    border-color: #7C48BE;
+    transform: scale(1.03);
+}
+ 
+
+.products li:active {
+    border-color: #614584;
+}
+
+.icons {
+    padding: 40px;
+}
+
+.products h2 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.product-price {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.product-description {
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    background: #222425;
+}
+
+.copyright {
+    color: #DDDDDD;
+    padding: 10px;
+    font-size: 14px;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.custom-main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    padding: 40px;
+}
+
+form label, form legend {
+    color: #DDDDDD;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-default {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.send-button {
+    width: 15%;
+    padding: 15px 0px;
+    background: #614584;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: #7C48BE;
+    transform: scale(1.1);
+
+}
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead {
+    background: #222425;
+    color: #DDDDDD;
+    font-weight: 600;
+}
+
+
+td {
+    border: 1px solid #1E2021;
+    padding:8px 15px;
+    color: #DDDDDD;
+    background: #474B50;
+}
+
+
+th {
+    border: 1px solid #1E2021;
+    padding:8px 15px;
+    color: #DDDDDD;
+}
+
+#text-hours {
+    color: #DDDDDD;
+    display: block;
+    font-size: 20px;
+    margin: 20px 0px 10px;
+}
+
+/* css da página inicial */
+
+.banner {
+    width: 100%;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: #DDDDDD;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin: 0 0 1em;
+    color:#DDDDDD;
+    text-align: left;
+    width: 100%;
+    font-size: 20px;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilisios {
+    width: 120px;
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.beneficios {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.itens {
+    line-height: 2;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: '🟊 '
+}
+
+.img-beneficios {
+    width:70%
+}
+
+.benef-list {
+    width: 30%;
+    display: inline-block;
+    color: #DDDDDD;
+    font-size: 20px;
+    vertical-align: top;
+}
+
+.benef-content {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background: #292A2D;
+    font-family: 'Manjari', sans-serif;
+}
+
+header {
+    background: #222425;
+}
+
+.map {
+	padding: 3em 0;
+    background: #222425;
+}
+
+.map-content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map p {
+	margin: 0 0 2em;
+	text-align: center;
+    font-size: 20px;
+    color: #DDDDDD;
+}
+
+.video {
+    width: 100%;
+    margin: 1em auto;
+}
+
+@media screen and (max-width: 480px) {
+    .map-content, .principal, .beneficios, .video {
+        width: auto;
+    }
+
+    .page-selected {
+        color: #7C48BE;
+    }
+
+    .img-beneficios {
+        width:100%
+    }
+
+    .benef-list {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav {
+        position: static;
+    }
+
+    nav a {
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+
+    .products {
+        margin: 0;
+        padding: 0px;
+    }
+
+    .products li {
+        display: block;
+        margin-top: 20px;
+        padding: 30px 20px;
+    }
+
+    .input-default {
+        width: 70%;
+    }
+
+    .send-button {
+        width: 100%;
+    }
+
+}
+
+/* .products {
+
+form {
+    padding: 40px;
+}
+
+form label, form legend {
+    color: #DDDDDD;
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.input-default {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 30%;
+}
+
+.checkbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.send-button {
+    width: 15%;
+    padding: 15px 0px;
+    background: #614584;
+    color:white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+} /*

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contato - Barbearia do Dutra</title>
+        <link rel="stylesheet" href="styles/reset.css">
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favico.ico" type="image/x-icon" />
+    </head>
+    <body>
+        <header>
+            <div class="box">
+                <h1 class="top-logo"><img src="images/logo-white.png" alt="Logo da Barberia Dutra"></h1>
+            
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a class="page-selected" href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <form>
+                <label for="input-name">Nome e sobrenome</label>
+                <input type="text" id="input-name" class="input-default" required placeholder="Digite seu nome completo">
+
+                <label for="input-mail">E-mail</label>
+                <input type="email" id="input-mail" class="input-default" required placeholder="Digite seu e-mail">
+
+                <label for="input-phone">Telefone de contato</label>
+                <input type="tel" id="input-phone" class="input-default" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="message">Mensagem</label>
+                <textarea cols="70" rows="10" id="message" class="input-default" required placeholder="Escreva uma mensagem"></textarea>
+
+                <fieldset>
+                    <legend>Como prefere nosso contato?</legend>
+                    <label for="radio-email"><input type="radio" name="contact-radios" value="email" id="radio-email">Email</label>
+                    <label for="radio-phone"><input type="radio" name="contact-radios" value="phone" id="radio-phone">Telefone</label>
+                    <label for="radio-wpp"><input type="radio" name="contact-radios" value="wpp" id="radio-wpp" checked>WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Qual horário prefere ser atendido?</legend>
+                    <select>
+                        <option>Manhã (08:00 - 12:00hrs)</option>
+                        <option>Tarde (13:30 - 18:00hrs)</option>
+                        <option>Noite (18:00 - 20:00hrs)</option>
+                    </select>
+                </fieldset>
+                
+                
+                <label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+                <input type="submit" value="Enviar formulário" class="send-button">
+
+                <p id="text-hours">Horários de atendimento</p>
+                <table>
+                    <thead>
+                        <th>Segunda</th>
+                        <th>Quarta</th>
+                        <th>Quinta</th>
+                        <th>Sexta</th>
+                        <th>Sábado</th>
+                        <th>Domingo</th>
+                    </thead>
+                    <tbody>
+                        <tr> 
+                            <td>Fechado</td> 
+                            <td>08:00 - 21:00hrs</td>
+                            <td>08:00 - 21:00hrs</td>
+                            <td>08:00 - 21:00hrs</td>
+                            <td>10:00 - 18:00hrs</td>
+                            <td>10:00 - 18:00hrs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </main>
+
+        <footer>
+            <h1 class="top-logo"><img src="images/logo-white.png" alt="Logo da Barberia Dutra"></h1>
+            <p class="copyright">&copy; Copyright Barbearia do Dutra - Todos os direitos reservados</p>
+        </footer>
+    </body>
+</html>
+
